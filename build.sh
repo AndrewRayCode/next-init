@@ -5,8 +5,6 @@ COLOR_LIGHT_GREEN=$(tput sgr0 && tput bold && tput setaf 2)
 COLOR_LIGHT_RED=$(tput sgr0 && tput bold && tput setaf 1)
 COLOR_LIGHT_CYAN=$(tput sgr0 && tput bold && tput setaf 6)
 COLOR_RESET=$(tput sgr0)
-BOLD=$(tput bold)
-
 
 exit_with_error() {
   header "${COLOR_LIGHT_RED}$1${COLOR_RESET}"
