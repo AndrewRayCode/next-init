@@ -1,0 +1,21 @@
+{
+  "name": "@andrewray/next-init",
+  "version": "1.0.0",
+  "description": "What am I doing",
+  "bin": {
+    "next-init": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewRayCode/next-init.git"
+  },
+  "author": "Andrew Ray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewRayCode/next-init/issues"
+  },
+  "homepage": "https://github.com/AndrewRayCode/next-init#readme"
+}

@@ -1,0 +1,4 @@
+# Note: .dockerignore only applies to COPY and ADD commands, not
+# to bind mounts
+node_modules
+

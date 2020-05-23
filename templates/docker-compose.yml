@@ -1,0 +1,13 @@
+version: '2.4'
+
+services:
+  web:
+    build:
+      context: .
+      target: dev
+    ports:
+      - '3099:3099'
+    volumes:
+      - .:/node/app:delegated
+      # Create an anonymous volume inside of a bind mount, which works!
+      - /node/app/node_modules/

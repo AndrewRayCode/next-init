@@ -1,0 +1,7 @@
+node_modules
+.next
+# Nextjs static site build
+out
+
+# wtf is creating these
+.DS_Store
